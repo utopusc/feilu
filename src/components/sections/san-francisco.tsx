@@ -1,7 +1,6 @@
 "use client";
 
 import { Globe } from "@/components/ui/globe";
-import { BlurFade } from "@/components/ui/blur-fade";
 import type { COBEOptions } from "cobe";
 
 const SF_GLOBE_CONFIG: COBEOptions = {
@@ -32,48 +31,46 @@ export function SanFrancisco() {
           </div>
 
           {/* Text */}
-          <BlurFade delay={0.2}>
-            <div>
-              <h2 className="mb-4 text-3xl font-bold sm:text-4xl">
-                Dream Location:{" "}
-                <span className="text-blue-500">San Francisco</span>
-              </h2>
-              <p className="mb-6 text-gray-400">
-                San Francisco is where I want to build my career and life. The
-                city offers everything I&apos;m looking for.
-              </p>
-              <ul className="space-y-3 text-gray-300">
-                <li className="flex items-start gap-3">
-                  <span className="mt-0.5 text-lg">🌉</span>
-                  <span>
-                    <strong className="text-white">Diverse Culture</strong> — A
-                    melting pot of people, food, and experiences
-                  </span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="mt-0.5 text-lg">🍜</span>
-                  <span>
-                    <strong className="text-white">Amazing Food Scene</strong> —
-                    Perfect for my culinary passion
-                  </span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="mt-0.5 text-lg">👥</span>
-                  <span>
-                    <strong className="text-white">Great Coworkers</strong> —
-                    Collaborative and supportive healthcare community
-                  </span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="mt-0.5 text-lg">💰</span>
-                  <span>
-                    <strong className="text-white">Strong Benefits</strong> —
-                    Higher pay and great healthcare benefits in the Bay Area
-                  </span>
-                </li>
-              </ul>
-            </div>
-          </BlurFade>
+          <div>
+            <h2 className="mb-4 text-3xl font-bold sm:text-4xl">
+              Dream Location:{" "}
+              <span className="text-blue-500">San Francisco</span>
+            </h2>
+            <p className="mb-6 text-gray-400">
+              San Francisco is where I want to build my career and life. The
+              city offers everything I&apos;m looking for.
+            </p>
+            <ul className="space-y-3 text-gray-300">
+              <li className="flex items-start gap-3">
+                <span className="mt-0.5 text-lg">🌉</span>
+                <span>
+                  <strong className="text-white">Diverse Culture</strong> — A
+                  melting pot of people, food, and experiences
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="mt-0.5 text-lg">🍜</span>
+                <span>
+                  <strong className="text-white">Amazing Food Scene</strong> —
+                  Perfect for my culinary passion
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="mt-0.5 text-lg">👥</span>
+                <span>
+                  <strong className="text-white">Great Coworkers</strong> —
+                  Collaborative and supportive healthcare community
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="mt-0.5 text-lg">💰</span>
+                <span>
+                  <strong className="text-white">Strong Benefits</strong> —
+                  Higher pay and great healthcare benefits in the Bay Area
+                </span>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>

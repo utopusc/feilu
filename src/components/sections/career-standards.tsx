@@ -1,7 +1,6 @@
 "use client";
 
 import { Marquee } from "@/components/ui/marquee";
-import { BlurFade } from "@/components/ui/blur-fade";
 
 const standards = [
   {
@@ -70,16 +69,14 @@ export function CareerStandards() {
   return (
     <section id="standards" className="relative py-24 px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
-        <BlurFade delay={0.1}>
-          <h2 className="mb-4 text-center text-3xl font-bold sm:text-4xl">
-            Career Success{" "}
-            <span className="text-blue-500">Standards</span>
-          </h2>
-          <p className="mx-auto mb-12 max-w-2xl text-center text-gray-400">
-            The 8 Job Corps Career Success Standards that guide my professional
-            development.
-          </p>
-        </BlurFade>
+        <h2 className="mb-4 text-center text-3xl font-bold sm:text-4xl">
+          Career Success{" "}
+          <span className="text-blue-500">Standards</span>
+        </h2>
+        <p className="mx-auto mb-12 max-w-2xl text-center text-gray-400">
+          The 8 Job Corps Career Success Standards that guide my professional
+          development.
+        </p>
 
         <div className="relative">
           <Marquee pauseOnHover className="[--duration:30s]">
