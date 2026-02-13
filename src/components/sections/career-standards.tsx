@@ -70,7 +70,7 @@ export function CareerStandards() {
   return (
     <section id="standards" className="relative py-24 px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
-        <BlurFade delay={0.1} inView>
+        <BlurFade delay={0.1}>
           <h2 className="mb-4 text-center text-3xl font-bold sm:text-4xl">
             Career Success{" "}
             <span className="text-blue-500">Standards</span>

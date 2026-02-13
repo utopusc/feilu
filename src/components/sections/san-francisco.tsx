@@ -32,7 +32,7 @@ export function SanFrancisco() {
           </div>
 
           {/* Text */}
-          <BlurFade delay={0.2} inView>
+          <BlurFade delay={0.2}>
             <div>
               <h2 className="mb-4 text-3xl font-bold sm:text-4xl">
                 Dream Location:{" "}

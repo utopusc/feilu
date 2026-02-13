@@ -40,13 +40,13 @@ export function FuturePlans() {
   return (
     <section id="future" className="relative py-24 px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-4xl">
-        <BlurFade delay={0.1} inView>
+        <BlurFade delay={0.1}>
           <h2 className="mb-6 text-center text-3xl font-bold sm:text-4xl">
             Future <span className="text-blue-500">Plans</span>
           </h2>
         </BlurFade>
 
-        <BlurFade delay={0.2} inView>
+        <BlurFade delay={0.2}>
           <div className="mb-16 text-center">
             <AuroraText
               className="text-xl font-semibold sm:text-2xl"
@@ -60,7 +60,7 @@ export function FuturePlans() {
         </BlurFade>
 
         {/* Timeline */}
-        <BlurFade delay={0.3} inView>
+        <BlurFade delay={0.3}>
           <div ref={containerRef} className="relative">
             <div className="grid grid-cols-2 gap-6 sm:grid-cols-4">
               {timelineSteps.map((step, idx) => (

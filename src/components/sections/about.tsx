@@ -7,7 +7,7 @@ export function About() {
   return (
     <section id="about" className="relative py-24 px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
-        <BlurFade delay={0.1} inView>
+        <BlurFade delay={0.1}>
           <h2 className="mb-4 text-center text-3xl font-bold sm:text-4xl">
             Why These <span className="text-blue-500">Careers</span>?
           </h2>
@@ -19,7 +19,7 @@ export function About() {
 
         <div className="grid gap-6 md:grid-cols-2">
           {/* CMA Card */}
-          <BlurFade delay={0.2} inView>
+          <BlurFade delay={0.2}>
             <div className="relative overflow-hidden rounded-xl border border-white/10 bg-white/5 p-8">
               <BorderBeam
                 colorFrom="#2563eb"
@@ -55,7 +55,7 @@ export function About() {
           </BlurFade>
 
           {/* Culinary Card */}
-          <BlurFade delay={0.3} inView>
+          <BlurFade delay={0.3}>
             <div className="relative overflow-hidden rounded-xl border border-white/10 bg-white/5 p-8">
               <BorderBeam
                 colorFrom="#0d9488"

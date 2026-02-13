@@ -47,7 +47,7 @@ export function CareerFacts() {
   return (
     <section id="facts" className="relative py-24 px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
-        <BlurFade delay={0.1} inView>
+        <BlurFade delay={0.1}>
           <h2 className="mb-4 text-center text-3xl font-bold sm:text-4xl">
             Career <span className="text-blue-500">Facts</span>
           </h2>
@@ -58,7 +58,7 @@ export function CareerFacts() {
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {stats.map((stat, idx) => (
-            <BlurFade key={stat.label} delay={0.15 + idx * 0.1} inView>
+            <BlurFade key={stat.label} delay={0.15 + idx * 0.1}>
               <div className="relative overflow-hidden rounded-xl border border-white/10 bg-white/5 p-6 text-center">
                 <BorderBeam
                   colorFrom={stat.colorFrom}

@@ -19,7 +19,7 @@ export function CareerDetails() {
   return (
     <section id="career" className="relative py-24 px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
-        <BlurFade delay={0.1} inView>
+        <BlurFade delay={0.1}>
           <h2 className="mb-4 text-center text-3xl font-bold sm:text-4xl">
             Career <span className="text-blue-500">Details</span>
           </h2>
@@ -29,7 +29,7 @@ export function CareerDetails() {
         </BlurFade>
 
         <div className="grid gap-6 md:grid-cols-3">
-          <BlurFade delay={0.15} inView>
+          <BlurFade delay={0.15}>
             <MagicCard
               className="rounded-xl border border-white/10"
               gradientColor="#1e3a5f"
@@ -53,7 +53,7 @@ export function CareerDetails() {
             </MagicCard>
           </BlurFade>
 
-          <BlurFade delay={0.25} inView>
+          <BlurFade delay={0.25}>
             <MagicCard
               className="rounded-xl border border-white/10"
               gradientColor="#1e3a5f"
@@ -76,7 +76,7 @@ export function CareerDetails() {
             </MagicCard>
           </BlurFade>
 
-          <BlurFade delay={0.35} inView>
+          <BlurFade delay={0.35}>
             <MagicCard
               className="rounded-xl border border-white/10"
               gradientColor="#1e3a5f"
@@ -101,7 +101,7 @@ export function CareerDetails() {
         </div>
 
         {/* Animated Duties List */}
-        <BlurFade delay={0.4} inView>
+        <BlurFade delay={0.4}>
           <div className="mx-auto mt-12 max-w-xl">
             <h3 className="mb-6 text-center text-xl font-semibold text-gray-200">
               Daily Duties
